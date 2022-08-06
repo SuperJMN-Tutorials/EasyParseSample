@@ -6,7 +6,7 @@ This is a sample for others to see how to define a list in a `NativeGrammar`, so
 
 Consider this grammar:
 
-```
+```csharp
 class MyGrammar : NativeGrammar 
 {
     public Identifier Identifier([R("identifier", @"\w*")]string id) => new Identifier(id);
